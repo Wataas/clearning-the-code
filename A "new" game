@@ -21,7 +21,7 @@ int main()
     cin>>nome;
     cin.ignore();
     
-    while(pagina!=0) {
+while(pagina!=0) {
         
         switch(pagina) {
             
@@ -129,9 +129,56 @@ int main()
             cout<<"              --------FIM DA INTRODUÇÃO----------"<< endl;
             cout<<"FINAL: Amanhã sera igual."<< endl;
             cout<<"Vc vive aqui desde que consegue se lembrar";
-            return 0;}
+            return 0;
             
         case 10:
+              d();
+            cout<<"Vc se aproxima do gato preto, e logo se lembra de que seu nome é Meawo, além de que 'O gato' na verdade é 'A gata'.";
+        pausa();
+        
+            cout<<"Ao mesmo tempo que acaricia o gato, vc se da conta que ela é o unico fator que faz com oque vc não esteja de fato sozinho nesse momento";
+        pausa();
+        
+             cout<<"Vc aprecia a companhia dela, e se sente bem consigo mesmo";
+        pausa();
+        
+             dc();
+             cout<<"Oque vc faz?"<< endl;
+             cout<<"1-continuar a acariciar o gato"<< endl;
+             cout<<"2-seguir a investigação"<< endl;
+             cin>>escolha;
+             cin.ignore();
+             if (escolha==1) {
+                 pagina=11;
+             }
+             else if (escolha==2) {
+                 pagina=12;
+             }
+                 break;
+                 
+        case 11:
+              cout<<"acariciando ainda mais o gato, ele se irrita e te arranha com frieza";
+            pausa();
+             
+             cout<<"AIII!";
+            pausa();
+            
+             cout<<"O gato volta a te olhar com desdém";
+            pausa();
+            
+            pagina=13;
+            break;
+            
+        case 12:
+            cout<<"ao virar de costas para o gato, vc o ouve miar como se quisesse mais carinho, mas por algum motivo vc sente um ar maquiavelico junto de seus miados, e seguindo seus instintos vc o ignora.";
+            pausa();
+            
+            pagina=13;
+            break;
+            
+        
+        
+             
               
         
              
@@ -144,3 +191,4 @@ int main()
         
     }
 
+}
