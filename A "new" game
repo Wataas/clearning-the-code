@@ -5,6 +5,7 @@ void d() {cout<<"---------------------------------------------------------------
 void dc() {cout<<"------------"<< endl;}
 void g() {cout<<"|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"<< endl;}
 void pausa() {cin.get();}
+//case 2= bussula, case 3 e 4= finais
 
 
 int main()
@@ -83,16 +84,55 @@ int main()
              cin.ignore();
              
             if (escolha==1 && faca==false) {
-                pagina=3
+                pagina=3;
             }
             else if (escolha==1 && faca==true) {
-                pagina=10
+                pagina=10;
             }
             else if (escolha==2) {
-                pagina=4
+                pagina=4;
             }
-        break
+                break;
+    
+        case 3:
+             d();
+            cout<<"vc se encaminha para o laptop ao mesmo tempo que evita o gato preto. enquanto logava sua conta, evitava a todo custo olhar para o bloco de notas"<< endl;
+        pausa();
+            
+            cout<<"O laptop finalmente liga, o calor aquece seu colo"<< endl;
+        pausa();
         
+            cout<<"olhando a área de trabalho, há apenas 2 arquivos, no qual um deles era preciso de uma senha da qual vc não faz ideia, ao acessar o arquivo sem senha, vc encontra um diário de muitos dias, talvez infinitos dias contados:"<< endl;
+        pausa();
+            
+            cout<<"dia ??? - Hoje, eu passei tempo no espaço branco, tudo estava ok"<< endl;
+            cout<<"dia ??? - Hoje, eu passei tempo no espaço branco, tudo estava ok"<< endl;
+            cout<<"dia ??? - Hoje, eu visitei meus amigos, tudo estava ok"<< endl;
+            cout<<"dia ??? - Hoje, eu passei tempo no espaço branco, tudo estava ok"<< endl;
+            cout<<"dia ??? - Hoje, visitei meus amigos, tudo estava ok"<< endl;
+            cout<<"..."<< endl;
+        pausa();
+            
+            d();
+            cout<<"Lendo essas notas, vc sente um gosto amargo na boca e se sente enjôado. Vc lembra quem vc é.";
+        pausa();
+            
+            cout<<"vc não sente vontade de sair do espaço branco.";
+        pausa();
+        
+            cout<<"vc cria uma nova nota no laptop e escreve:"<< endl;
+        pausa();
+        
+            cout<<"dia ??? - Hoje, eu passei tempo no espaço branco, tudo estava ok"<< endl;
+        pausa();
+        
+            cout<<"              --------FIM DA INTRODUÇÃO----------"<< endl;
+            cout<<"FINAL: Amanhã sera igual."<< endl;
+            cout<<"Vc vive aqui desde que consegue se lembrar";
+            return 0;}
+            
+        case 10:
+              
         
              
         
@@ -103,6 +143,4 @@ int main()
         
         
     }
-}
-    
-       
+
