@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 void d() {cout<<"-----------------------------------------------------------------------"<< endl;}
+void dc() {cout<<"------------"<< endl;}
 void g() {cout<<"|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"<< endl;}
 void pausa() {cin.get();}
 
@@ -23,7 +24,7 @@ int main()
         
         switch(pagina) {
             
-            case 1: //introdução
+        case 1: //introdução
              d();
              cout<<"O branco é a única coisa que você conhece. Não há paredes, não há teto, apenas um vazio infinito que se estende para todas as direções. Você está sentado em um pequeno quadrado de carpete, o único ponto em meio\n    ao nada"<< endl;
         pausa();
@@ -40,7 +41,7 @@ int main()
             
             d();
             cout<<"olhando para cima uma lampâda preta paira pelo ar, de alguma forma ela mantém vc afastado da escuridão, enquanto a via balançar, de repente, um brilho metálico corta o vazio e uma faca cai do céu aterrisando perto de vc."<< endl;
-            d();
+            dc();
             cout<<"oque vc faz?"<< endl;
             cout<<"1-pegar faca."<< endl;
             cout<<"2-não pegar."<< endl;
@@ -65,7 +66,37 @@ int main()
                   cout<<"o brilho dela te assuta.";
                 pausa();
             }
-                
+                pagina=2;
+                break;
+             
+        case 2:
+            pausa();
+             d();
+             cout<<"É mais um dia como todos os outros, ou seria noite? vc decide não pensar sobre isso. Mas vc sente que há algo fora do lugar, algo que não devia estar lá ";
+            pausa();
+            
+             dc();
+             cout<<"oque vc faz?"<< endl;
+             cout<<"1-investigar"<< endl;
+             cout<<"2-nada"<< endl;
+             cin>>escolha;
+             cin.ignore();
+             
+            if (escolha==1 && faca==false) {
+                pagina=3
+            }
+            else if (escolha==1 && faca==true) {
+                pagina=10
+            }
+            else if (escolha==2) {
+                pagina=4
+            }
+        break
+        
+        
+             
+        
+        
         }
         
         
@@ -73,4 +104,5 @@ int main()
         
     }
 }
+    
        
