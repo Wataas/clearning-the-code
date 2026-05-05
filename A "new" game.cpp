@@ -6,7 +6,7 @@ void dc() {cout<<"------------"<< endl;}
 void g() {cout<<"|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"<< endl;}
 void pausa() {cin.get();}
 //case 2= bussula, case 3 e 4= finais
-
+//case 15 = case 60-final verdadeiro/ case70-final falso
 
 int main()
 {
@@ -176,7 +176,136 @@ while(pagina!=0) {
             pagina=13;
             break;
             
-        
+        case 13:
+              cout<<"Se virando de frente ao laptop, vc pressiona o botão de login, e espera a maquina processar seus dados, enquanto isso, o bloco de desenhos chama sua atenção";
+           pausa();
+             
+             cout<<"Vc estende seu braço em direção ao bloco de desenhos e sente uma leve hesitação, mas vc sente algo familiar no seu bolso e se enche de coragem, o pegando e o abrindo:";
+           pausa();
+             
+             cout<<"<Pagina 1> - Um desenho surrealista de Meawo segurando uma cloche";
+           pausa();
+             
+              cout<<"<Pagina 2> - Vc vê um retrato assinado, e ao olhar a assinatura esta escrito: '"<<nome<< "'. Este sou eu, vc lembra?";
+           pausa();
+           
+              cout<<"<Pagina 3> - Vc vê rostos familiares, estes são meus amigos";
+           pausa();
+              
+              cout<<"<Pagina 4> - esta intitulada como 'A verdade' e abaixo dentro de um espaço oco, se encontra uma chave, tão negra quanta a lâmpada que paira pelo ar.";
+           pausa(); 
+           
+              dc();
+              cout<<"Oque vc deseja fazer?"<< endl;
+              cout<<"1-pegar chave"<< endl;
+              cout<<"2-deixa-la onde esta"<< endl;
+              cin>>escolha;
+              cin.ignore();
+              if (escolha==1) {
+                      chave=true;
+                      cout<<"Vc adquiriu 'Verdade!'";
+                    pausa();  
+                
+                }
+              else if (escolha==2) {
+                      chave=false;
+                       cout<<"Vc rejeitou 'verdade'";
+                     pausa();
+               }
+               
+                     pagina=14;
+                     break;
+         
+         case 14:
+              d();
+              cout<<"Logo vc ouve as ventoinhas do laptop, e se vira de frente para ele, soltando o bloco de notas no chão. Na área de trabalho há dois arquivos, e ao acessar o primeiro, é pedido uma senha";
+            pausa();
+            
+              cout<<"-----------------------------------------------------------"<< endl;
+              cout<<"a senha possue 5 caracteres, eu devo ser capaz de acerta-la"<< endl;
+              cout<<"Digite a senha abaixo:"<< endl;
+              cin>>senha; 
+              cin.ignore();
+              
+              if (senha=="meawo" || senha=="Meawo") {
+                  
+                  cout<<"acesso permitido!";
+                  pagina=15;
+                  
+                }
+                
+              else {
+              
+                   cout<<"Acesso negado!";
+                pausa();
+                
+                   cout<<"Enquanto tenta lembrar sua senha, a tela do laptop muda mostrando apenas uma sequência de palavras:";
+                 pausa();
+                
+                   cout<<"---------------------------"<< endl;
+                   cout<<"'Vc esqueceu, como pode?!'"<< endl;
+                   cout<<"'Vc esqueceu, como pode?!'"<< endl;
+                   cout<<"'Vc esqueceu, como pode?!'"<< endl;
+                   cout<<"'Vc esqueceu, como pode?!'"<< endl;
+                   cout<<"---------------------------"<< endl;
+                 pausa();
+                
+                   cout<<"Logo o laptop se mergulha em trevas e o engole por completo sem chance de fuga";
+                 pausa();
+                
+                   cout<<"       ------------FIM DA INTRODUÇÃO?-------------"<< endl;
+                   cout<<"FINAL: consumido"<< endl;
+                   cout<<"tente se lembrar das regras de diretrizes de senhas do google, nem todos a seguem";
+                   return 0;
+                  
+                }
+                   break;
+                   
+         case 15:
+               cout<<"Vendo o arquivo, vc nota que na verdade ele era um app de rede social, e para sua surpresa na caixa de entrada estava 'Vc tem 1 nova mensagem!'";
+            pausa();
+            
+               cout<<"Antes de clicar, vc novamenta hesita, mas então vc sente algo familiar em seu bolso que te enche de coragem. E com aflição vc visualiza a seguinte mensagem: ";
+            pausa();
+            
+               d();
+               cout<<"<Isaak> - Falaaaaaa, como vc tá? " <<nome<< ". Faz tempo que a gente não une o pessoal, se puder venha hoje, vai ser muuuuito legal"<< endl;
+               d();
+            pausa();
+            
+               cout<<"Apos ler a mensagem, uma porta branca de cotorno preto aparece adiante de vc";
+            pausa();
+            
+               cout<<"Vc desliga o laptop e ao se aproximar da porta, nota que há uma fechadura com o mesmo formato da chave negra. Convêniente, não?";
+            pausa();
+            
+               cout<<"Vc fica de frente a porta e sente um leve aperto no peito. Vc sente como se houvesse apenas uma escolha a ser tomada";
+            pausa();
+                dc();
+                cout<<"abrir porta?"<< endl;
+                cout<<"1-sim"<< endl;
+                cin>>escolha;
+                cin.ignore();
+                if (escolha==1 && chave==true) {
+                    
+                    pagina=60;
+                }
+                else if (escolha==1 && chave==false) {
+                    
+                    pagina=60;
+                }
+                
+                    break;
+                
+         case 60: 
+               
+       
+              
+              
+                   
+           
+              
+                
         
              
               
