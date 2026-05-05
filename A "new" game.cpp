@@ -6,7 +6,7 @@ void dc() {cout<<"------------"<< endl;}
 void g() {cout<<"|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"<< endl;}
 void pausa() {cin.get();}
 //case 2= bussula, case 3 e 4= finais
-//case 15 = case 60-final verdadeiro/ case70-final falso
+//case14=gato/ case 15 = case 60-final verdadeiro/ case70-final falso
 
 int main()
 {
@@ -229,7 +229,8 @@ while(pagina!=0) {
               
               if (senha=="meawo" || senha=="Meawo") {
                   
-                  cout<<"acesso permitido!";
+                 pausa();
+                  cout<<"acesso permitido!"<< endl;
                   pagina=15;
                   
                 }
@@ -292,22 +293,158 @@ while(pagina!=0) {
                 }
                 else if (escolha==1 && chave==false) {
                     
-                    pagina=60;
+                    pagina=70;
                 }
                 
                     break;
                 
          case 60: 
-               
-       
-              
-              
+               cout<<"Vc encaixa a chave na fechadura, e a porta se abre adiante de vc"<< endl;
+            pausa();
+            
+               cout<<"do outro lado...";
+            pausa();
+            
+               cout<<"Luz, cores, algo genuínamente confortavel";
+            pausa();
+            
+               cout<<"Vc sente que pode entrar, mas tbm sente que caso entre deixará algo para trás..."<< endl;
+               dc();
+               cout<<"Oque vc faz?"<< endl;
+               cout<<"1-Entrar (fugir)"<< endl;
+               cout<<"2-ficar (encarar a verdade)"<< endl;
+               cin>>escolha;
+               cin.ignore();
+               if (escolha==1) {
                    
-           
+                   pagina=61;
+                }  
+                else if (escolha==2) {
+                    
+                    pagina=62;
+                }
+                    break;
               
-                
-        
+         case 61:
+               cout<<"Vc entra"<< endl;
+             pausa();
+            
+               cout<<"O branco desaparece e as cores preenchem sua visão"<< endl;
+             pausa(); 
+            
+               cout<<"Tudo parece perfeito"<< endl;
+             pausa();  
+               cout<<"Mas no fundo algo continua errado...";
+             pausa();
+            
+               cout<<"      ----------FIM DA INTRODUÇÃO------------"<< endl;
+               cout<<"FINAL: Ilusão perfeita"<< endl;
+               cout<<"dia ??? - Hoje, eu visitei meus amigos, tudo estava ok";
+               return 0;
+              
+         case 62:
+               cout<<"Vc não entra"<< endl;
+               cout<<"seus pés não se movem"<< endl;
+               cout<<"Algo dentro de vc... não permite"<< endl;
+               cout<<"A luz começa a enfraquecer";
+             pausa();
+           
+               cout<<"A porta... muda";
+             pausa();
+            
+               cout<<"Vc observa cético a porta se contorcendo e descamando sua madeira como se fosse uma aranha, ate que no final ela muda por completo deixando de ser uma porta e passando a ser um grande espelho";
+             pausa();
              
+               cout<<"Vc se vê, mas não como deveria...";
+             pausa();
+             
+               cout<<"algo parece diferente...";
+             pausa();
+             
+               cout<<"Algo está atras de vc...";
+             pausa();
+             
+               cout<<"de repente sua visão fica um breu,";
+             pausa();
+             
+               cout<<"Vc abre seus olhos e quando olha para o lado vê:";
+             pausa();
+             
+               cout<<"03:33 A.M";
+             pausa();
+             
+               cout<<"         ----------FIM DA INTRODUÇÃO--------------"<<  endl;
+               cout<<"FINAL: A verdade"<< endl;
+               cout<<"Meus pensamentos te seguirão nos seus sonhos";
+               return 0;
+                
+        case 70:
+               cout<<"A porta não abre";
+             pausa();
+               cout<<"Esqueceu algo importante?";
+             pausa();
+             
+               cout<<"Vc tenta forçar a porta, mas nada funciona. Quando vc ja estava prestes a desmoronar, vc sente algo familiar em seu bolso...";
+             pausa();
+             
+               cout<<"Vc segura e olha fixamente seu reflexo na faca";
+             pausa();
+             
+               cout<<"Vc não quer fazer isso, mas algo em vc já decidiu";
+             pausa();
+             
+               cout<<"...";
+             pausa();
+             
+               cout<<"Vc não lembra do que aconteceu em seguida";
+             pausa();
+            
+               cout<<"siêncio";
+             pausa();
+             
+               cout<<"escuro";
+             pausa();
+             
+               cout<<"vc abre seus olhos, mas antes de olhar para o lado, vc sente seu esôfago em atividade"<< endl;
+               cout<<"Vc larga a faca e abaixa a cabeça para fora de seu travesseiro.";
+             pausa();
+             
+               cout<<"nesse meio tempo vc se questiona:"<< endl;
+               cout<<"'pq eu estava com aquilo afinal?'";
+             pausa();
+             
+               cout<<"       ------------FIM DA INTRODUÇÃO-------------"<< endl;
+               cout<<"FINAL: Ruptura"<< endl;
+               cout<<"Vc não lembra do que acontece em seguida";
+               return 0;  
+               
+         case 4:
+               cout << "Voce decide nao fazer nada." << endl;
+               cout << "..." << endl;
+               cout << "O silencio continua." << endl;
+               cout << "O branco continua." << endl;
+               cout << "Voce continua. O tempo passa." << endl;
+               cout << "Ou talvez nao." << endl;
+               cout << "Voce nao sabe dizer. Algo muda." << endl;
+               cout << "Nao no espaco." << endl;
+               cout << "Em voce." << endl;
+             pausa();
+             
+               cout << "suas mãos, pés e sentidos sumiram"<< endl;
+             pausa();
+             
+               cout << "Vc e o vazio se tornam um só"<< endl;
+             pausa();
+             
+               cout << "Vc desaparece"<< endl;
+             pausa();
+             
+               cout<<"        --------------FIM DA INTRODUÇÃO-------------"<< endl;
+               cout<<"FINAL: vazio"<< endl;
+               cout<<"Vc escolheu não escolher";
+               return 0;  
+                           
+        
               
         
              
