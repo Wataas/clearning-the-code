@@ -111,12 +111,27 @@ while(pagina!=0) {
                 
                 if (escolha==1) {
                     
-                    cout<<"vc ve seu reflexo";
+                    cout<<"A lâmina é perfeitamente polida, brilhando com uma intensidade que machuca os olhos. Ao olhar de perto, você vê seu próprio rosto refletido no metal frio."<< endl;
+                 pausa();
                     
+
+                    cout<<"Mas há algo errado... o reflexo parece mais real do que você. Ele não pisca quando você pisca."<< endl;
+                 pausa();
+                    
+                    cout<<"O metal exala um cheiro ferroso, familiar e metálico. Você sente que essa faca sempre pertenceu a você."<< endl;
+                 pausa();
+                                        
                     pagina = 300;
                     break;
                     
                 }
+                
+                else if (escolha==2) {
+                    
+                    pagina = 200;
+                    break;
+                }
+                    break;
             }
               
             
@@ -226,7 +241,7 @@ while(pagina!=0) {
             
         case 10:
               d();
-            cout<<"Vc se aproxima do gato preto, e logo se lembra de que seu nome é Meawo, além de que 'O gato' na verdade é 'A gata'.";
+            cout<<"Vc se aproxima do gato preto, e logo se lembra de que 'O gato' na verdade é 'A gata'.";
         pausa();
         
             cout<<"Ao mesmo tempo que acaricia o gato, vc se da conta que ela é o unico fator que faz com oque vc não esteja de fato sozinho nesse momento";
